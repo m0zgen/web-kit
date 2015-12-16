@@ -1,0 +1,86 @@
+/* Intro */
+.intro-text{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* monitors and laptops */
+@media screen and (min-width: 1240px)  {
+
+.intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+}
+
+/* tablet */
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+
+.intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+}
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+.intro-text {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+
+}
+
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+.intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+}
+
+/* iPhone 5 in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+
+.intro-text {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+
+}
+
+/* iPhone 5 in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+
+.intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+}
+
+/* iPhone 2G-4S in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+
+  .intro-text {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+
+
+}
+
+/* iPhone 2G-4S in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+
+.intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+}
